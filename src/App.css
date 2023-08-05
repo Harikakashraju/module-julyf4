@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  background-color: #F05A22;
+  color: white;
+  padding : 20px;
+}
+.navbar a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+padding: 5px;
+}
+#search{
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  
+}
+.home{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 15px 15px;
+}
+.home div{
+  border-radius: 10px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgb(249, 249, 249);
+}
+#link{
+  text-decoration: none;
+  padding: 5px;
+  color: rgb(40, 35, 35);
+}
+#link:hover{
+  cursor: pointer;
+}
+.home div img{
+  border-radius: 20px ;
+}
+
